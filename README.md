@@ -2,6 +2,28 @@
 
 Tired of Googling around for programming interview practice problems? This is a project to build high-quality practice problems suggested for preparing for programming interviews.
 
+## Note: Typescript Fork Instructions
+
+NPM and Typescript have been setup in this branch/fork to make it easier to start implementing and testing in typescript.
+```bash
+npm install
+```
+
+then
+
+```bash
+npm test
+```
+
+or
+
+```bash
+npm run test-watch
+```
+
+array_rotate is setup with an incomplete implementation and a single test. You can start here by finishing the
+implementation and writing tests.
+
 ## Suggested Practice Questions
 
 1. [Array Rotation](array_rotate): take a given array and rotate it `n` slots *(10-20 minutes)*
