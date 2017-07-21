@@ -4,7 +4,8 @@
   "description": "Tired of Googling around for programming interview practice problems? This is a project to build high-quality practice problems suggested for preparing for programming interviews.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine-ts '**/*.spec.ts'"
+    "test": "jasmine-ts '**/*.spec.ts'",
+    "test-watch": "chokidar -p '**/*.ts' -c 'npm run test'"
   },
   "repository": {
     "type": "git",
